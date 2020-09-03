@@ -1,0 +1,7122 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:ital,wght@0,600;0,700;1,700&display=swap');
+
+
+:root {
+    --mainWhite: #ffffff;
+    --mainOrange2: #de8851;
+    --mainOrange: #f8a375;
+    --mainGrey: #d9d9d9;
+    --mainDark: #000000;
+
+}
+
+
+.container {
+
+    min-height: 77vh;
+    
+}
+
+.footer-contain {
+    min-height: 1vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Josefin Slab', serif !important;
+    letter-spacing: 0.25rem !important;
+    word-spacing: 5px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: var(--mainOrange2);
+}
+
+.nav-link {
+
+    font-size: 28px;
+
+}
+
+body {
+    background:url('../images/04_Wallpaper.png');
+    color: var(--mainDark);
+    font-family: 'Josefin Slab', serif !important;
+    background-size: 180vh;
+    background-position-y: 240px;
+    background-position-x: 152.5px;
+  
+}
+
+
+
+.text-orange {
+    color: var(--mainOrange);
+}
+
+
+.btn-yellow {
+    background: var(--mainOrange2);
+    color: var(--mainDark);
+    display: inline-flexbox;
+}
+
+.home-menu {
+  position: absolute;
+  width: 75%;
+  right: 330px;
+  bottom:190px; 
+  flex-direction: row;
+
+}
+
+.home-header {
+    position: absolute;
+    display: -webkit-flex;
+    right: 2.5px;
+    top: 5px;
+    opacity: .8;
+    z-index: -1;
+    
+
+}
+
+.home-img {
+    position: relative;
+}
+
+
+.home-btn {
+    position: grid;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.home-btn-shop {
+    position: grid;
+
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.home-btn-hive {
+    position: grid;
+
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.home-btn-join {
+    position: grid;
+  
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+
+.about-img {
+position: relative;
+display: flexbox;
+height: 1097px;
+width: 1600px;
+right: 250px;
+justify-content: center;
+opacity: .9;
+z-index: -1;
+  
+}
+
+.about-title {
+    position: relative;
+    bottom: 38px;
+}
+.about-desc {
+    text-align: center;
+    font-size: larger;
+    font-style: bold;
+    font-size: 26px;
+    height: 200px;
+}
+
+.about-words {
+    position: relative;
+    bottom: 800px;
+    background-color: var(--mainWhite);
+    border-style: groove;
+    border-color: var(--mainOrange);
+    border-width: 10px;
+    padding: 10px;
+}
+
+.close-btn {
+    position: relative;
+    background-color: var(--mainWhite);
+    color:var(--mainOrange);
+    left: 500px;
+    bottom: 45px;
+
+}
+
+.close-btn-2 {
+    position: relative;
+    background-color: var(--mainWhite);
+    color:var(--mainOrange);
+    left: 500px;
+    bottom: 225px;
+    
+}
+
+.close-btn-3 {
+    position: relative;
+    background-color: var(--mainWhite);
+    color:var(--mainOrange);
+    left: 500px;
+    bottom: 215px;
+}
+
+.insta-btn {
+    position: relative;
+    background-color: var(--mainOrange);
+    color:var(--mainDark);
+    left: 10px;
+    bottom: 2px;
+}
+
+.facebook-btn {
+    position: relative;
+    background-color: var(--mainOrange);
+    color:var(--mainDark);
+    left: 18px;
+    bottom: 2px;
+}
+
+.gallery {
+    position: relative;
+    height: 1124px;
+    overflow: scroll;
+}
+
+.photobook {
+    min-height: 0vh;
+}
+
+.shop-background {
+    min-height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.shop-img {
+    position: relative;
+    display: flexbox;
+    width: 1600px;
+    right: 250px;
+    height: 1097px;
+    justify-content: center;
+    opacity: .9;
+    z-index: -1;   
+}
+
+.logos {
+    position: relative;
+    text-align: center;
+    bottom: 0px;
+    padding: 10px;
+    min-height: 13vh;
+}
+
+.logo-header {
+    position: relative;
+    top:403px;
+    left:70px;
+    height:20px;
+    width: 400px;
+}
+
+
+.products {
+    height: 78vh;
+    position: relative;
+    left: 280px;
+    width: 80%;
+    overflow: scroll;
+    
+   
+}
+
+.product {
+    height: 25vh;
+    position: relative;
+    word-wrap: break-word;
+    bottom: 90px;
+}
+
+.production {
+    position: relative; 
+}
+
+.prod {
+position: relative;
+min-height: 10vh;
+margin: 7px;
+}
+
+.product-img {
+    width: 300px;
+    height: 300px;
+    border-style: groove;
+    border-color: var(--mainOrange);
+    border-width: 10px;
+}
+
+.product-title {
+    position: relative;
+    bottom: 36px;
+    left: 118px
+}
+
+.btn-all {
+    position: absolute;
+    bottom:30px;
+    margin:15px
+}
+
+.brand {
+    min-height: 1vh;
+}
+
+.vagaro-container {
+    position: absolute;
+    left:-220px;
+    width:1600px;
+    bottom: 60px;
+    right: 0px;
+    height: 950px;
+    overflow: scroll;
+}
+
+.shop {
+    position: relative;
+    height: 7px;
+    bottom: 0px;
+    
+}
+
+.contact-titles {
+    font-size: 20px;
+    
+}
+
+.contact-address {
+    position: relative;
+    right: 5px;
+    bottom: 70px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;;
+}
+
+.contact-form {
+ 
+    position: relative;
+    height: 340px;
+    font-size: 22px;
+}
+
+.contact-info {
+    background-color: var(--mainOrange2);
+    padding: 25px;
+    position: relative;
+    font-size: 22px;
+    top: 50px;
+    left:20px;
+    height: 200px;    
+}
+
+.contact-words {
+    position: relative;
+    height: 850px;
+    bottom: 1000px;
+    background-color: var(--mainWhite);
+    border-style: groove;
+    border-color: var(--mainOrange2);
+    border-width: 10px;
+    padding: 10px;
+}
+
+.form-group {
+    min-height: 8vh;
+    font-weight: normal;
+
+}
+
+.submit-btn {
+    position: relative;
+    justify-content: center;
+    width: 200px;
+    z-index: 1;
+}
+
+
+
+.footer {
+
+    background-color: var(--mainOrange2);
+    min-height: 10vh;
+    width: 230%;
+    position: relative;
+    right: 721px;
+    top: 128px;
+}
+
+.foot-address {
+    position: grid;
+    font-size: larger;
+    left: 200px
+}
+
+.foot-title {
+    position: grid;
+    font-size: larger;
+}
+
+.foot-phone {
+    position: grid;
+    font-size: larger;
+    right: 200px;
+     
+}
+
+
+
+.footer-text {
+    font-size: 20px;
+}
+
+.footer-gallery {
+    position: relative;
+    top:150px;
+    font-size: 16px;
+}
+
+
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--mainOrange);
+  }
+  
+  .container:hover .overlay {
+    opacity: .9;
+  }
+  
+  .text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .gallery-img {
+  border-style: groove;
+  border-color: var(--mainOrange);
+  border-width: 10px;
+  }
+  
+  .gallery {
+    position: relative;
+    height: 1098px;
+    overflow: scroll;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1920px) {
+
+  
+    
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+
+    nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+        
+    }
+    
+    .nav-link {
+    
+        font-size: 28px;
+    
+    }
+
+
+    .container {
+
+        min-height: 77vh;
+        
+    }
+    
+    .footer-contain {
+        min-height: 1vh;
+    }
+
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+    
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 67.5%;
+      right: 330px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+    position: absolute;
+    display: -webkit-flex;
+    right: 2.5px;
+    top: 5px;
+    opacity: .8;
+    z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+        width: 60%;
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        
+        
+    }
+    
+    
+    .about-img {
+    position: relative;
+    height: 922px;
+    width: 1600px;
+    right: 250px;
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 24px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 710px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 195px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+    
+    }
+    
+    .shop {
+        position: relative;
+        height: -700px;
+        bottom: 0px;
+        
+    }
+
+    .shop-img {
+        position: relative;
+       
+        right: 250px;
+        justify-content: center;
+        opacity: .9;   
+    }
+
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange2);
+        padding: 25px;
+        position: relative;
+        font-size: 18px;
+        top: 80px;
+        left:20px;
+        height: 180px;    
+        font-style: var(--mainDark);
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 900px;
+        height: 860px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+
+    
+.footer {
+
+    background-color: var(--mainOrange2);
+    min-height: 10vh;
+    width: 201%;
+    position: relative;
+    right: 718px;
+    top: 125px;
+}
+
+.foot-address {
+    position: grid;
+    font-size: larger;
+    left: 420px;
+   
+}
+
+.foot-title {
+    position: grid;
+    font-size: larger;
+    left:180px
+}
+
+.foot-phone {
+    position: grid;
+    font-size: larger;
+    right:30px
+     
+}
+
+ 
+    
+    
+    .footer-text {
+        font-size: 20px;
+        font-weight: bold;
+        border-width: 10px;
+        border-color: var(--mainDark) ;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1680px) {
+  
+    
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 10px;
+    }
+
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+    
+    .nav-link {
+    
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 190px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: absolute;
+        left: 80px;
+        
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 80%;
+      right: 190px;
+      bottom:130px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        opacity: 1;
+     
+
+    }
+    
+    .home-img {
+        position: absolute;
+        left: 305px;
+        top: -40px;
+       
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    
+    .book-widget {
+        position: relative;
+        height: 100px;
+        
+    }
+    
+    
+    .about-img {
+        position: relative;
+        height: 898px;
+        width: 1400px;
+        right: 140px;
+        justify-content: center;
+        opacity: .9; 
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 24px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 720px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 45px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 500px;
+        bottom: 195px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .photobook {
+        min-height: 0vh;
+    }
+    
+    .shop-background {
+        min-height: 12vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .shop-img {
+      
+         
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+    
+    .brand {
+        min-height: 1vh;
+    }
+    
+    .vagaro-container {
+        position: absolute;
+        left:-220px;
+        width:1600px;
+        bottom: 195px;
+        right: 0px;
+        height: 910px;
+        overflow: scroll; 
+    }
+    
+    .shop {
+        position: relative;
+        height: 7px;
+        bottom: 0px;
+        
+    }
+    
+    .contact-titles {
+        font-size: 20px;
+    
+        
+    }
+    
+    .contact-address {
+        position: relative;
+        right: 5px;
+        bottom: 80px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;;
+    }
+    
+    .contact-form {
+        
+        position: relative;
+        height: 340px;
+        font-size: 22px;
+    }
+    
+    .contact-info {
+        background-color: var(--mainOrange2);
+        padding: 25px;
+        position: relative;
+        font-size: 18px;
+        top: 70px;
+        left:20px;
+        height: 180px;    
+        font-style: var(--mainDark);
+    }
+    
+    .contact-words {
+        position: relative;
+        bottom: 860px;
+        height: 820px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+    }
+    
+    .form-group {
+        min-height: 8vh;
+        font-weight: normal;
+        
+    }
+    
+    .submit-btn {
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+
+        background-color: var(--mainOrange2);
+        min-height: 10vh;
+        width: 100%;
+        position: absolute;
+        right: 1px;
+        top: 800px;
+    }
+    
+    .foot-address {
+        position: flex;
+        font-size: larger;
+        
+       
+    }
+    
+    .foot-title {
+        position: flex;
+        font-size: larger;
+     
+    }
+    
+    .foot-phone {
+        position: flex;
+        font-size: larger;
+       
+         
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 1600px) {
+   
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+    
+    .nav-link {
+    
+        font-size: 24px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 70%;
+      right: 255px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        right: 2.5px;
+        top: 5px;
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+        
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        top: 125px;
+    }
+    
+    
+    .about-img {
+        position: relative;
+        height: 750px;
+        width: 1200px;
+        right: 35px;
+        justify-content: center;
+        opacity: .9;  
+        background-color: var(--mainOrange);
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 21px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 640px;
+        width: 80%;
+        left: 100px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 400px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 310px;
+        bottom: 245px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 400px;
+        bottom: 175px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {
+        position: absolute;
+        left:-220px;
+        width:1600px;
+        top: 10px;
+        right: 0px;
+        height: 710px;
+        overflow: scroll; 
+    }
+
+    .contact-address {
+        position: relative;
+        width: 650px;
+        bottom: 72px;
+        left:4.5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+    .contact-titles {
+        font-size: 17.5px;
+        position: relative;
+        bottom: 25px;
+        width: 660px;   
+    }
+    
+    
+    .contact-words {
+        position: relative;
+        bottom: 730px;
+        left: 225px;
+        height: 700px;
+        width: 700px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:670px;
+        bottom: 90px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 225px;
+        bottom: 28px;
+    }
+    
+    .footer {
+
+        background-color: var(--mainOrange2);
+        min-height: 10vh;
+        width: 190%;
+        position: relative;
+        right: 708px;
+        top: 128px;
+    }
+    
+    .foot-address {
+        position: grid;
+        font-size: larger;
+        left: 530px;
+       
+    }
+    
+    .foot-title {
+        position: grid;
+        font-size: larger;
+        left:245px
+    }
+    
+    .foot-phone {
+        position: grid;
+        font-size: larger;
+        right:10px
+         
+    }
+    
+    
+    .footer-text {
+        font-size: 20px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 1440px) {
+    
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+    
+    .nav-link {
+    
+        font-size: 18px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 75%;
+      right: 185px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        right: 2.5px;
+        top: 5px;
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+     
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    .book-widget {
+        position: relative;
+        top: 125px;
+    }
+    
+    
+    .about-img {
+        position: relative;
+        width: 1000px;
+        height: 625px;
+        right: 5px;
+        justify-content: center;
+        opacity: .9; 
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 21px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 550px;
+        width: 80%;
+        left: 100px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 400px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 420px;
+        bottom: 195px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 400px;
+        bottom: 175px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+        
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {
+        position: absolute;
+        height:600px;
+        width: 750px;
+        left:5px;
+        bottom:290px;
+        overflow: scroll;
+    }
+
+    .contact-address {
+        position: relative;
+        width: 890px;
+        bottom: 122px;
+        right:5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+    .contact-titles {
+        font-size: 15.5px;
+        position: relative;
+        bottom: 35px;
+        width: 899px;   
+    }
+    
+    .contact-buzz {
+        position: relative;
+        bottom: 10px;
+        left: 20px
+    }
+    
+    .contact-words {
+        position: relative;
+        font-weight: bold;
+        bottom: 580px;
+        left: 85px;
+        height: 560px;
+        width: 940px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:870px;
+        bottom: 120px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 295px;
+        bottom: 28px;
+    }
+    
+    .footer {
+
+        background-color: var(--mainOrange2);
+        min-height: 12vh;
+        width: 178.8%;
+        position: relative;
+        right: 708px;
+        top: 137px;
+        
+    }
+    
+    .foot-address {
+        position: grid;
+        font-size: larger;
+        left: 580px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .foot-title {
+        position: grid;
+        font-size: larger;
+        left:300px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .foot-phone {
+        position: grid;
+        font-size: larger;
+        left:40px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 1366px) {
+    
+
+
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+    
+    .nav-link {
+    
+        font-size: 18px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+       
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 75%;
+      right: 185px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        right: 2.5px;
+        top: 5px;
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+       
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    
+    .book-widget {
+        position: relative;
+   
+    }
+    
+    
+    .about-img {
+    position: relative;
+    width: 950px;
+    height: 640px;
+    left: -10px;
+    justify-content: center;
+    opacity: .9;   
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 21px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 515px;
+        width: 80%;
+        left: 100px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 400px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 310px;
+        bottom: 245px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 400px;
+        bottom: 175px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+        position: absolute;
+        width: 950px;
+        
+        left: 85px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {
+        position: absolute;
+        height:605px;
+        width: 800px;
+        left:5px;
+        bottom:50px;
+        overflow: scroll;
+        
+    }
+
+    .contact-address {
+        position: relative;
+        width: 650px;
+        bottom: 122px;
+        left:4.5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+
+    .contact-buzz {
+        position: relative;
+        left: 30px;
+    }
+
+
+    .contact-titles {
+        font-size: 15px;
+        position: relative;
+        bottom: 25px;
+        width: 560px;
+        left:23px   
+    }
+    
+    
+    .contact-words {
+        position: relative;
+        bottom: 630px;
+        left: 205px;
+        height: 620px;
+        width: 700px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:670px;
+        bottom: 90px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 225px;
+        bottom: 28px;
+    }
+  
+    .footer {
+
+        background-color: var(--mainOrange2);
+        min-height: 12vh;
+        width: 175.8%;
+        position: relative;
+        right: 708px;
+        top: 136px;
+        
+    }
+    
+    .foot-address {
+        position: grid;
+        font-size: larger;
+        left: 580px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .foot-title {
+        position: grid;
+        font-size: larger;
+        left:300px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .foot-phone {
+        position: grid;
+        font-size: larger;
+        left:40px;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+
+       
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    .foot-row {
+        position: relative;
+        height: 50px;
+    }
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media only screen and (max-width: 1360px) {
+   
+
+
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+    
+    .nav-link {
+    
+        font-size: 15px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+        
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 80%;
+      right: 120px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        right: 2.5px;
+        top: 5px;
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+        
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        top: 125px;
+    }
+    
+    
+    .about-img {
+        position: relative;
+        width: 950px;
+        height: 645px;
+        left: -10px;
+        justify-content: center;
+        opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 21px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 545px;
+        width: 80%;
+        left: 100px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 400px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 310px;
+        bottom: 245px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 400px;
+        bottom: 175px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+        position: absolute;
+        width: 950px;
+        height: 645px;
+        left: 85px;
+        justify-content: center;
+        opacity: .9;     
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {
+        position: absolute;
+        height:605px;
+        width: 800px;
+        left:0px;
+        bottom:45px;
+        overflow: scroll;
+    }
+
+    .contact-address {
+        position: relative;
+        width: 650px;
+        bottom: 122px;
+        left:4.5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+
+    .contact-buzz {
+        position: relative;
+        left: 30px;
+    }
+
+
+    .contact-titles {
+        font-size: 15px;
+        position: relative;
+        bottom: 25px;
+        width: 560px;
+        left:23px   
+    }
+    
+    
+    .contact-words {
+        position: relative;
+        bottom: 635px;
+        left: 205px;
+        height: 620px;
+        width: 700px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:670px;
+        bottom: 90px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 225px;
+        bottom: 28px;
+    }
+    
+    .footer {
+
+        background-color: var(--mainOrange2);
+        min-height: 12vh;
+        width: 175.8%;
+        position: relative;
+        right: 708px;
+        top: 139px;
+        
+    }
+    
+    .foot-address {
+        position: grid;
+        font-size: larger;
+        left: 640px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .foot-title {
+        position: grid;
+        font-size: larger;
+        left:330px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .foot-phone {
+        position: grid;
+        font-size: larger;
+        left:60px;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    .foot-row {
+        position: relative;
+        height: 50px;
+    }
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 1280px) {
+   
+
+
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+    
+    .nav-link {
+    
+        font-size: 15px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+        
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 80%;
+      right: 125px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        right: 2.5px;
+        top: 50px;
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+        
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        top: 125px;
+    }
+    
+    
+    .about-img {
+        position: relative;
+        width: 950px;
+        height: 645px;
+        left: -10px;
+        justify-content: center;
+        opacity: .9;
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 18px;
+        height: 200px;
+        
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 525px;
+        width: 60%;
+        left: 220px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange2);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange2);
+        left: 290px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange2);
+        left: 290px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange2);
+        left: 300px;
+        bottom: 155px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+        position: absolute;
+        width: 950px;
+        height: 645px;
+        left: 85px;
+        justify-content: center;
+        opacity: .9;     
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {    
+        position: absolute;
+        height:605px;
+        width: 800px;
+        left:0px;
+        bottom:45px;
+        overflow: scroll;
+    }
+
+    .contact-address {
+        position: relative;
+        width: 650px;
+        bottom: 122px;
+        left:4.5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+
+    .contact-buzz {
+        position: relative;
+        left: 30px;
+    }
+
+
+    .contact-titles {
+        font-size: 15px;
+        position: relative;
+        bottom: 25px;
+        width: 560px;
+        left:23px   
+    }
+    
+    
+    .contact-words {
+        position: relative;
+        bottom: 635px;
+        left: 205px;
+        height: 620px;
+        width: 700px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange2);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:670px;
+        bottom: 90px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 225px;
+        bottom: 28px;
+    }
+    
+    .footer {
+
+        background-color: var(--mainOrange2);
+        min-height: 12vh;
+        width: 175.8%;
+        position: relative;
+        right: 708px;
+        top: 139px;
+        
+    }
+    
+    .foot-address {
+        position: grid;
+        font-size: larger;
+        left: 640px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .foot-title {
+        position: grid;
+        font-size: larger;
+        left:330px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .foot-phone {
+        position: grid;
+        font-size: larger;
+        left:50px;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    .foot-row {
+        position: relative;
+        height: 50px;
+    }
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 1199px) {
+
+   
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+    
+    .nav-link {
+    
+        font-size: 14px;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+    
+    .text-orange {
+        color: var(--mainOrange);
+    }
+    
+    
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+       
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 80%;
+      right: 125px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        left: 2.5px;
+       
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+       
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    
+    .book-widget {
+        position: relative;
+        top: 125px;
+    }
+    
+    
+    .about-img {
+        position: relative;
+        width: 950px;
+        height: 645px;
+        left: -5px;
+        justify-content: center;
+        opacity: .9;  
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 18px;
+        height: 200px;
+        
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 565px;
+        width: 60%;
+        left: 220px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange2);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 250px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 290px;
+        bottom: 225px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 250px;
+        bottom: 155px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange2);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange2);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+        position: absolute;
+        width: 950px;
+        height: 645px;
+        left: 10px;
+        justify-content: center;
+        opacity: .9;  
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {    
+        position: absolute;
+        height:605px;
+        width: 800px;
+        left:0px;
+        bottom:45px;
+        overflow: scroll;
+    }
+
+    .contact-address {
+        position: relative;
+        width: 650px;
+        bottom: 122px;
+        left:4.5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+
+    .contact-buzz {
+        position: relative;
+        left: 30px;
+    }
+
+
+    .contact-titles {
+        font-size: 15px;
+        position: relative;
+        bottom: 25px;
+        width: 560px;
+        left:23px   
+    }
+    
+    
+    .contact-words {
+        position: relative;
+        bottom: 635px;
+        left: 105px;
+        height: 620px;
+        width: 700px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:670px;
+        bottom: 90px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 225px;
+        bottom: 28px;
+    }
+    
+
+    .footer {
+
+        background-color: var(--mainOrange2);
+        min-height: 12vh;
+        width: 190.5%;
+        position: relative;
+        right: 708px;
+        top: 140px;
+        
+    }
+    
+    .foot-address {
+        position: grid;
+        top:10px;
+        left: 0px;
+        font-size: smaller;
+        font-weight: bold;
+    }
+    
+    .foot-title {
+        position: grid;
+        bottom:30px;
+        left:750px;
+        font-size: smaller;
+        font-weight: bold;
+    }
+    
+    .foot-phone {
+        position: grid;
+        bottom: 30px;
+        left:200px;
+        font-size: smaller;
+        font-weight: bold;
+    }
+
+
+    .footer-text {
+        font-size: 16px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    .foot-row {
+        position: relative;
+        height: 50px;
+    }
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+    
+  
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 1045px) {
+   
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+
+    .nav-link {
+    
+        font-size: 11px;
+        font-weight: bolder;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+
+
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+        
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 90%;
+      right: 60px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        left: 5px;
+    
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+        
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+    .shop-img{
+    position: absolute;
+    width: 850px;
+    height: 648px;
+    left: 52px;
+    justify-content: center;
+    opacity: .9;
+    }
+
+
+    .about-img{
+            position: relative;
+            width: 850px;
+            height: 648px;
+            left: -3px;
+            justify-content: center;
+            opacity: .9;  
+        }
+        
+       
+        .vagaro-container {    
+            position: absolute;
+            height:640px;
+            width: 700px;
+            right:-10px;
+            bottom:45px;
+            overflow: scroll;
+        }
+
+        .contact-words {
+            position: relative;
+            bottom: 635px;
+            left: 135px;
+            height: 620px;
+            width: 700px;
+            background-color: var(--mainWhite);
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+           
+        }
+
+        .footer {
+
+            background-color: var(--mainOrange2);
+            min-height: 14vh;
+            width: 182.5%;
+            position: relative;
+            right: 708px;
+            top: 145px;
+            
+        }
+        
+        .foot-address {
+            position: grid;
+            top:10px;
+            left: 70px;
+            font-size: smaller;
+            font-weight: bold;
+        }
+        
+        .foot-title {
+            position: grid;
+            bottom:30px;
+            left:750px;
+            font-size: smaller;
+            font-weight: bold;
+        }
+        
+        .foot-phone {
+            position: grid;
+            bottom: 30px;
+            left:215px;
+            font-size: smaller;
+            font-weight: bold;
+        }
+    
+        
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media only screen and (max-width: 1015px) {
+    
+
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+
+    .nav-link {
+    
+        font-size: 11px;
+        font-weight: bolder;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+
+
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+       
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 90%;
+      right: 60px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        left: 5px;
+       
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+        
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+
+    .book-widget {
+        position: relative;
+        top: 125px;
+    }
+    
+    
+    .about-img {
+    position: relative;
+
+        width: 800px;
+        height: 680px;
+        left: 15px;
+        justify-content: center;
+        opacity: .9; 
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 18px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 605px;
+        width: 60%;
+        left: 200px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 250px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 310px;
+        bottom: 215px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 290px;
+        bottom: 155px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+        position: absolute;
+        width: 800px;
+        height: 680px;
+        left: 95px;
+        justify-content: center;
+        opacity: .9;    
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {    
+        position: absolute;
+        height:635px;
+        width: 700px;
+        left:30px;
+        bottom:50px;
+        overflow: scroll;
+    }
+
+    .contact-address {
+        position: relative;
+        width: 650px;
+        bottom: 122px;
+        left:4.5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+
+    .contact-buzz {
+        position: relative;
+        left: 30px;
+    }
+
+
+    .contact-titles {
+        font-size: 14px;
+        position: relative;
+        bottom: 25px;
+        width: 560px;
+        left:23px   
+    }
+    
+    
+    .contact-words {
+        position: relative;
+        bottom: 655px;
+        left: 125px;
+        height: 605px;
+        width: 700px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:670px;
+        bottom: 90px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 225px;
+        bottom: 28px;
+    }
+    
+    
+  
+    .footer-text {
+        font-size: 16px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    .foot-row {
+        position: relative;
+        height: 50px;
+    }
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media only screen and (max-width: 991px) {
+    
+    
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+
+    .nav-link {
+    
+        font-size: 11px;
+        font-weight: bolder;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+
+
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+        
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 90%;
+      right: 60px;
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        left: 5px;
+       
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+        
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+
+    .book-widget {
+        position: relative;
+        top: 125px;
+    }
+    
+    
+    .about-img {
+    position: relative;
+    width: 800px;
+        height: 680px;
+        left: -30px;
+        justify-content: center;
+        opacity: .9;  
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 18px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 605px;
+        width: 70%;
+        left: 120px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 215px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 310px;
+        bottom: 215px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 210px;
+        bottom: 155px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+        position: absolute;
+        width: 750px;
+        height: 680px;
+        left: -15px;
+        justify-content: center;
+        opacity: .9;   
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {
+        position: relative;
+        height:635px;
+        width: 600px;
+        left:5px;
+        top:-93px;
+        overflow: scroll;
+    }
+
+    .contact-address {
+        position: relative;
+        width: 650px;
+        bottom: 122px;
+        left:4.5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+
+    .contact-buzz {
+        position: relative;
+        left: 30px;
+    }
+
+
+    .contact-titles {
+        font-size: 14px;
+        position: relative;
+        bottom: 25px;
+        width: 560px;
+        left:23px   
+    }
+    
+    
+    .contact-words {
+        position: relative;
+        bottom: 665px;
+        left: 20px;
+        height: 605px;
+        width: 700px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:670px;
+        bottom: 90px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 225px;
+        bottom: 28px;
+    }
+    
+    .footer {
+
+        background-color: var(--mainOrange2);
+        min-height: 14vh;
+        width: 225%;
+        position: relative;
+        right: 708px;
+        top: 145px;
+        
+    }
+    
+    .foot-address {
+        position: grid;
+        top:10px;
+        left: 40px;
+        font-size: smaller;
+        font-weight: bold;
+    }
+    
+    .foot-title {
+        position: grid;
+        bottom:30px;
+        left:685px;
+        font-size: smaller;
+        font-weight: bold;
+    }
+    
+    .foot-phone {
+        position: grid;
+        bottom: 30px;
+        left:208px;
+        font-size: smaller;
+        font-weight: bold;
+    }
+  
+    .footer-text {
+        font-size: 16px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    .foot-row {
+        position: relative;
+        height: 50px;
+    }
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 938px) {
+    
+    
+    h1,h2,h3,h4,h5,h6, nav {
+        font-family: 'Josefin Slab', serif !important;
+        letter-spacing: 0.25rem !important;
+        word-spacing: 5px;
+        font-size: 24px;
+    }
+    
+    .navbar {
+        background-color: var(--mainOrange2);
+    }
+
+    .nav-link {
+    
+        font-size: 10px;
+        font-weight: bolder;
+    
+    }
+    
+    body {
+        background:url('../images/04_Wallpaper.png');
+        color: var(--mainDark);
+        font-family: 'Josefin Slab', serif !important;
+        background-size: 180vh;
+        background-position-y: 240px;
+        background-position-x: 152.5px;
+        
+    }
+
+
+    .btn-yellow {
+        background: var(--mainOrange2);
+        color: var(--mainDark);
+        display: inline-flexbox;
+        position: relative;
+       
+    }
+    
+    .home-menu {
+      position: absolute;
+      width: 90%;
+      
+      bottom:190px; 
+      flex-direction: row;
+    
+    }
+    
+    .home-header {
+        position: absolute;
+        display: -webkit-flex;
+        left: 5px;
+       
+        opacity: .8;
+        z-index: -1;
+        
+    
+    }
+    
+    .home-img {
+        position: relative;
+       
+    }
+    
+    
+    .home-btn {
+        position: grid;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .home-btn-shop {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-hive {
+        position: grid;
+    
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .home-btn-join {
+        position: grid;
+      
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+
+    .book-widget {
+        position: relative;
+        top: 125px;
+    }
+    
+    
+    .about-img {
+    position: relative;
+    width: 750px;
+    height: 680px;
+  
+    justify-content: center;
+    opacity: .9;
+      
+    }
+    
+    
+    .about-desc {
+    
+        text-align: center;
+        font-size: larger;
+        font-style: bold;
+        font-size: 18px;
+        height: 200px;
+        
+    }
+    
+    .about-words {
+        position: relative;
+        bottom: 605px;
+        width: 70%;
+        left: 130px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+        padding: 10px;
+
+    }
+    
+    .close-btn {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 215px;
+        bottom: 30px;
+    
+    }
+    
+    .close-btn-2 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 310px;
+        bottom: 215px;
+        
+    }
+    
+    .close-btn-3 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 210px;
+        bottom: 155px;
+    }
+
+    .close-btn-4 {
+        position: relative;
+        background-color: var(--mainWhite);
+        color:var(--mainOrange);
+        left: 5px;
+        bottom: 1050px;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 10px;
+        bottom: 2px;
+    }
+    
+    .facebook-btn {
+        position: relative;
+        background-color: var(--mainOrange);
+        color:var(--mainDark);
+        left: 18px;
+        bottom: 2px;
+    }
+    
+    .gallery {
+        position: relative;
+        height: 1124px;
+        overflow: scroll;
+    }
+    
+    .shop {
+        position: relative;
+    }
+    
+
+    .shop-img {
+        position: absolute;
+        width: 750px;
+        height: 680px;
+        left: -15px;
+        justify-content: center;
+        opacity: .9;   
+       
+    }
+    
+    .logos {
+        position: relative;
+        text-align: center;
+        bottom: 0px;
+        padding: 10px;
+        min-height: 13vh;
+    }
+    
+    .logo-header {
+        position: relative;
+        top:403px;
+        left:70px;
+        height:20px;
+        width: 400px;
+    }
+    
+    
+    .products {
+        height: 78vh;
+        position: relative;
+        left: 280px;
+        width: 80%;
+        overflow: scroll;
+        
+       
+    }
+    
+    .product {
+        height: 25vh;
+        position: relative;
+        word-wrap: break-word;
+        bottom: 90px;
+    }
+    
+    .production {
+        position: relative; 
+    }
+    
+    .prod {
+    position: relative;
+    min-height: 10vh;
+    margin: 7px;
+    }
+    
+    .product-img {
+        width: 300px;
+        height: 300px;
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+    }
+    
+    .product-title {
+        position: relative;
+        bottom: 36px;
+        left: 118px
+    }
+    
+    .btn-all {
+        position: absolute;
+        bottom:30px;
+        margin:15px
+    }
+  
+    
+    .vagaro-container {
+        position: relative;
+        height:635px;
+        width: 600px;
+        left:5px;
+        bottom:770px;
+        overflow: scroll;
+    }
+
+    .contact-address {
+        position: relative;
+        width: 620px;
+        bottom: 122px;
+        left:4.5px
+        
+    }
+    
+    .contact-info {
+        position: relative;
+        width: 10px;
+        height: 130px;
+        bottom: 30px;
+        font-size: small;
+        
+    }
+    
+
+    .contact-buzz {
+        position: relative;
+        left: 30px;
+    }
+
+
+    .contact-titles {
+        font-size: 14px;
+        position: relative;
+        bottom: 25px;
+        width: 560px;
+        left:23px   
+    }
+    
+    
+    .contact-words {
+        position: relative;
+        bottom: 665px;
+        left: 20px;
+        height: 605px;
+        width: 670px;
+        background-color: var(--mainWhite);
+        border-style: groove;
+        border-color: var(--mainOrange);
+        border-width: 10px;
+       
+    }
+    
+    .contact-form {
+        position: relative;
+        background-color: var(--mainWhite);
+        height: 200px;
+        width:640px;
+        bottom: 90px;
+        left: 10px
+    }
+   
+    .submit-btn {
+        position: relative;
+        right: 225px;
+        bottom: 28px;
+    }
+    
+  
+  
+    .footer-text {
+        font-size: 16px;
+    }
+    
+    .footer-gallery {
+        position: relative;
+        top:150px;
+        font-size: 16px;
+    }
+    
+    .foot-row {
+        position: relative;
+        height: 50px;
+    }
+    
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: var(--mainOrange);
+      }
+      
+      .container:hover .overlay {
+        opacity: .9;
+      }
+      
+      .text {
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+      .gallery-img {
+      border-style: groove;
+      border-color: var(--mainOrange);
+      border-width: 10px;
+      }
+      
+      .gallery {
+        position: relative;
+        height: 1098px;
+        overflow: scroll;   
+    }
+
+
+
+
+
+
+
+
+
+   
+
+
+
+  
+
+
+
+
+    @media only screen and (max-width: 860px) {
+        
+
+
+        h1,h2,h3,h4,h5,h6, nav {
+            font-family: 'Josefin Slab', serif !important;
+            letter-spacing: 0.25rem !important;
+            word-spacing: 5px;
+            font-size: 24px;
+        }
+        
+        .navbar {
+            background-color: var(--mainOrange2);
+        }
+    
+        .nav-link {
+        
+            font-size: 9px;
+            font-weight: bolder;
+        
+        }
+        
+        body {
+            background:url('../images/04_Wallpaper.png');
+            color: var(--mainDark);
+            font-family: 'Josefin Slab', serif !important;
+            background-size: 180vh;
+            background-position-y: 240px;
+            background-position-x: 152.5px;
+            
+        }
+    
+    
+        .btn-yellow {
+            background: var(--mainOrange2);
+            color: var(--mainDark);
+            display: inline-flexbox;
+            position: relative;
+                  
+            font-size: smaller;
+        }
+        
+        .home-menu {
+          position: absolute;
+          width: 90%;
+          right: 60px;
+          bottom:190px; 
+          flex-direction: row;
+        
+        }
+        
+        .home-header {
+            position: absolute;
+            display: -webkit-flex;
+            left: 15px;
+            
+            opacity: .8;
+            z-index: -1;
+            
+        
+        }
+        
+        .home-img {
+            position: relative;
+          
+        }
+        
+        
+        .home-btn {
+            position: grid;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        
+        .home-btn-shop {
+            position: grid;
+        
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        .home-btn-hive {
+            position: grid;
+        
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        .home-btn-join {
+            position: grid;
+          
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+         
+        }
+    
+        .book-widget {
+            position: relative;
+            top: 125px;
+        }
+        
+        
+        .about-img {
+            position: relative;
+            width: 750px;
+            height: 680px;
+          
+            justify-content: center;
+            opacity: .9;
+              
+            }
+            
+            
+            .about-desc {
+            
+                text-align: center;
+                font-size: larger;
+                font-style: bold;
+                font-size: 18px;
+                height: 200px;
+                
+            }
+            
+            .about-words {
+                position: relative;
+                bottom: 605px;
+                width: 70%;
+                left: 130px;
+                background-color: var(--mainWhite);
+                border-style: groove;
+                border-color: var(--mainOrange);
+                border-width: 10px;
+                padding: 10px;
+        
+            }
+            
+            .close-btn {
+                position: relative;
+                background-color: var(--mainWhite);
+                color:var(--mainOrange);
+                left: 215px;
+                bottom: 30px;
+            
+            }
+        
+        .close-btn-2 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 310px;
+            bottom: 215px;
+            
+        }
+        
+        .close-btn-3 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 210px;
+            bottom: 155px;
+        }
+    
+        .close-btn-4 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 5px;
+            bottom: 1050px;
+        }
+        
+        .insta-btn {
+            position: relative;
+            background-color: var(--mainOrange);
+            color:var(--mainDark);
+            left: 10px;
+            bottom: 2px;
+        }
+        
+        .facebook-btn {
+            position: relative;
+            background-color: var(--mainOrange);
+            color:var(--mainDark);
+            left: 18px;
+            bottom: 2px;
+        }
+        
+        .gallery {
+            position: relative;
+            height: 1124px;
+            overflow: scroll;
+        }
+        
+        .shop {
+            position: relative;
+        }
+        
+    
+        .shop-img {
+            position: absolute;
+            width: 750px;
+            height: 680px;
+            left: -15px;
+            justify-content: center;
+            opacity: .9;   
+        }
+        
+        .logos {
+            position: relative;
+            text-align: center;
+            bottom: 0px;
+            padding: 10px;
+            min-height: 13vh;
+        }
+        
+        .logo-header {
+            position: relative;
+            top:403px;
+            left:70px;
+            height:20px;
+            width: 400px;
+        }
+        
+        
+        .products {
+            height: 78vh;
+            position: relative;
+            left: 280px;
+            width: 80%;
+            overflow: scroll;
+            
+           
+        }
+        
+        .product {
+            height: 25vh;
+            position: relative;
+            word-wrap: break-word;
+            bottom: 90px;
+        }
+        
+        .production {
+            position: relative; 
+        }
+        
+        .prod {
+        position: relative;
+        min-height: 10vh;
+        margin: 7px;
+        }
+        
+        .product-img {
+            width: 300px;
+            height: 300px;
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+        }
+        
+        .product-title {
+            position: relative;
+            bottom: 36px;
+            left: 118px
+        }
+        
+        .btn-all {
+            position: absolute;
+            bottom:30px;
+            margin:15px
+        }
+      
+        
+        .vagaro-container {
+            position: relative;
+            height:635px;
+            width: 600px;
+            left:5px;
+            bottom:770px;
+        }
+    
+        .contact-address {
+            position: relative;
+            width: 650px;
+            bottom: 122px;
+            left:4.5px
+            
+        }
+        
+        .contact-info {
+            position: relative;
+            width: 10px;
+            height: 130px;
+            bottom: 30px;
+            font-size: small;
+            
+        }
+        
+    
+        .contact-buzz {
+            position: relative;
+            left: 30px;
+        }
+    
+    
+        .contact-titles {
+            font-size: 14px;
+            position: relative;
+            bottom: 25px;
+            width: 560px;
+            left:23px   
+        }
+        
+        
+        .contact-words {
+            position: relative;
+            bottom: 665px;
+            left: 0px;
+            height: 605px;
+            width: 700px;
+            background-color: var(--mainWhite);
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+           
+        }
+        
+        .contact-form {
+            position: relative;
+            background-color: var(--mainWhite);
+            height: 200px;
+            width:670px;
+            bottom: 90px;
+            left: 10px
+        }
+       
+        .submit-btn {
+            position: relative;
+            right: 225px;
+            bottom: 28px;
+        }
+        
+        .footer {
+
+            background-color: var(--mainOrange2);
+            min-height: 12vh;
+            width: 215%;
+            position: relative;
+            right: 708px;
+            top: 150px;
+            
+        }
+        
+        .foot-address {
+            position: grid;
+            top:0px;
+            left: 140px;
+            font-size: x-small;
+            font-weight: bold;
+        }
+        
+        .foot-title {
+            position: grid;
+            bottom:30px;
+            left:705px;
+            font-size: x-small;
+            font-weight: bold;
+        }
+        
+        .foot-phone {
+            position: grid;
+            bottom: 30px;
+            left:200px;
+            font-size: x-small;
+            font-weight: bold;
+        }
+      
+        
+        .footer-gallery {
+            position: relative;
+            top:150px;
+            font-size: 16px;
+        }
+        
+        .foot-row {
+            position: relative;
+            height: 50px;
+        }
+        
+          
+          .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 300px;
+            width: 300px;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: var(--mainOrange);
+          }
+          
+          .container:hover .overlay {
+            opacity: .9;
+          }
+          
+          .text {
+            color: white;
+            font-size: 14px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
+        
+          .gallery-img {
+          border-style: groove;
+          border-color: var(--mainOrange);
+          border-width: 10px;
+          }
+          
+          .gallery {
+            position: relative;
+            height: 1098px;
+            overflow: scroll;   
+        }
+
+
+
+        
+
+
+        @media only screen and (max-width: 841px) {
+
+            navbar {
+                background-color: var(--mainOrange);
+            }
+            
+            .nav-link {
+            
+                font-size: 7.5px;
+            
+            }
+            
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      @media only screen and (max-width: 767px) {
+       
+
+
+        h1,h2,h3,h4,h5,h6, nav {
+            font-family: 'Josefin Slab', serif !important;
+            letter-spacing: 0.25rem !important;
+            word-spacing: 5px;
+            font-size: 24px;
+        }
+        
+        .navbar {
+            background-color: var(--mainOrange2);
+        }
+    
+        .nav-link {
+        
+            font-size: 9px;
+            font-weight: bolder;
+        
+        }
+        
+        body {
+            background:url('../images/04_Wallpaper.png');
+            color: var(--mainDark);
+            font-family: 'Josefin Slab', serif !important;
+            background-size: 180vh;
+            background-position-y: 240px;
+            background-position-x: 152.5px;
+            
+        }
+    
+    
+        .btn-yellow {
+            background: var(--mainOrange2);
+            color: var(--mainDark);
+            display: inline-flexbox;
+            position: relative;
+            font-size: smaller;
+        }
+        
+        .home-menu {
+          position: absolute;
+          width: 90%;
+          
+          flex-direction: row;
+        
+        }
+        
+        .home-header {
+            position: absolute;
+            display: -webkit-flex;
+            left: 15px;
+            top: 25px;
+            opacity: .8;
+            z-index: -1;
+            
+        
+        }
+        
+        .home-img {
+            position: relative;
+        }
+        
+        
+        .home-btn {
+            position: grid;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        
+        .home-btn-shop {
+            position: grid;
+        
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        .home-btn-hive {
+            position: grid;
+        
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        .home-btn-join {
+            position: grid;
+          
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+         
+        }
+    
+    
+        .book-widget {
+            position: relative;
+            top: 125px;
+        }
+        
+        
+        .about-img {
+        position: relative;
+        width: 620px;
+        height: 680px;
+        right:55px;
+        justify-content: center;
+        opacity: .9;
+          
+        }
+        
+        
+        .about-desc {
+        
+            text-align: center;
+            font-size: larger;
+            font-style: bold;
+            font-size: 16px;
+            height: 160px;
+            
+            
+        }
+        
+        .about-words {
+            position: relative;
+            bottom: 655px;
+            width: 70%;
+            height: 540px;
+            left: 95px;
+            background-color: var(--mainWhite);
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+            padding: 10px;
+            overflow: scroll;
+        }
+        
+        .close-btn {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 159px;
+            bottom: 35px;
+        
+        }
+        
+        .close-btn-2 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 250px;
+            bottom: 205px;
+            
+        }
+        
+        .close-btn-3 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 149px;
+            bottom: 155px;
+        }
+    
+        .close-btn-4 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 5px;
+            bottom: 1050px;
+        }
+        
+        .insta-btn {
+            position: relative;
+            background-color: var(--mainOrange);
+            color:var(--mainDark);
+            left: 10px;
+            bottom: 2px;
+        }
+        
+        .facebook-btn {
+            position: relative;
+            background-color: var(--mainOrange);
+            color:var(--mainDark);
+            left: 18px;
+            bottom: 2px;
+        }
+        
+        .gallery {
+            position: relative;
+            height: 1124px;
+            overflow: scroll;
+        }
+        
+        .shop {
+            position: relative;
+        }
+        
+    
+        .shop-img {
+            position: absolute;
+            width: 700px;
+            height: 640px;
+            left: -80px;
+            justify-content: center;
+            opacity: .9;   
+        }
+        
+        .logos {
+            position: relative;
+            text-align: center;
+            bottom: 0px;
+            padding: 10px;
+            min-height: 13vh;
+        }
+        
+        .logo-header {
+            position: relative;
+            top:403px;
+            left:70px;
+            height:20px;
+            width: 400px;
+        }
+        
+        
+        .products {
+            height: 78vh;
+            position: relative;
+            left: 280px;
+            width: 80%;
+            overflow: scroll;
+            
+           
+        }
+        
+        .product {
+            height: 25vh;
+            position: relative;
+            word-wrap: break-word;
+            bottom: 90px;
+        }
+        
+        .production {
+            position: relative; 
+        }
+        
+        .prod {
+        position: relative;
+        min-height: 10vh;
+        margin: 7px;
+        }
+        
+        .product-img {
+            width: 300px;
+            height: 300px;
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+        }
+        
+        .product-title {
+            position: relative;
+            bottom: 36px;
+            left: 118px
+        }
+        
+        .btn-all {
+            position: absolute;
+            bottom:30px;
+            margin:15px
+        }
+      
+        
+        .vagaro-container {
+            position: relative;
+            height:630px;
+            width: 600px;
+            left:-50px;
+            bottom:775px;
+            overflow: scroll;
+        }
+    
+        .contact-address {
+            position: relative;
+            width: 520px;
+            bottom: 122px;
+            left:0px;
+            
+            
+        }
+        
+        .contact-info {
+            position: relative;
+            width: 10px;
+            height: 130px;
+            bottom: 30px;
+            font-size: 12.5px;
+            
+        }
+        
+    
+        .contact-buzz {
+            position: relative;
+            left: 0px;
+        }
+    
+    
+        .contact-titles {
+            font-size: 12px;
+            position: relative;
+            bottom: 25px;
+            width: 560px;
+            left:0px   
+        }
+        
+        
+        .contact-words {
+            position: relative;
+            bottom: 665px;
+            left: 0px;
+            height: 605px;
+            width: 560px;
+            background-color: var(--mainWhite);
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+           
+        }
+        
+        .contact-form {
+            position: relative;
+            background-color: var(--mainWhite);
+            height: 200px;
+            width:530px;
+            bottom: 90px;
+            right: 60px
+        }
+       
+        .submit-btn {
+            position: relative;
+            right: 1px;
+            bottom: 28px;
+        }
+        
+        .footer {
+
+            background-color: var(--mainOrange2);
+            min-height: 12vh;
+            width: 261%;
+            position: relative;
+            right: 708px;
+            top: 140px;
+            
+        }
+        
+        .foot-address {
+            position: grid;
+            top:0px;
+            left: 140px;
+            font-size: x-small;
+            font-weight: bold;
+        }
+        
+        .foot-title {
+            position: grid;
+            bottom:30px;
+            left:650px;
+            font-size: x-small;
+            font-weight: bold;
+        }
+        
+        .foot-phone {
+            position: grid;
+            bottom: 30px;
+            left:208px;
+            font-size: x-small;
+            font-weight: bold;
+        }
+      
+      
+        .footer-text {
+            font-size: 16px;
+        }
+        
+        .footer-gallery {
+            position: relative;
+            top:150px;
+            font-size: 16px;
+        }
+        
+        .foot-row {
+            position: relative;
+            height: 50px;
+        }
+        
+          
+          .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 300px;
+            width: 300px;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: var(--mainOrange);
+          }
+          
+          .container:hover .overlay {
+            opacity: .9;
+          }
+          
+          .text {
+            color: white;
+            font-size: 14px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
+        
+          .gallery-img {
+          border-style: groove;
+          border-color: var(--mainOrange);
+          border-width: 10px;
+          }
+          
+          .gallery {
+            position: relative;
+            height: 1098px;
+            overflow: scroll;   
+        }
+    }
+    
+
+
+
+
+
+
+
+    @media only screen and (max-width: 375px) {
+       
+        
+        h1,h2,h3,h4,h5,h6, nav {
+            font-family: 'Josefin Slab', serif !important;
+            letter-spacing: 0.25rem !important;
+            word-spacing: 5px;
+            font-size: 16px;
+            font-style: bolder !important
+        }
+        
+        .navbar {
+            background-color: var(--mainOrange);
+        }
+        
+        .nav-link {
+        
+            font-size: 18px;
+        
+        }
+        
+        body {
+            background:url('../images/04_Wallpaper.png');
+            color: var(--mainDark);
+            font-family: 'Josefin Slab', serif !important;
+            background-size: 135vh;
+            background-position-y: 155px;
+            background-position-x: 340px;
+            
+        }
+        
+        .text-orange {
+            color: var(--mainOrange);
+        }
+        
+        
+        .btn-yellow {
+            background: var(--mainOrange);
+            color: var(--mainDark);
+            font-size: 14px;
+            position: relative;
+            width: 90px;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .home-menu {
+            position: absolute;
+            width: 63%;
+            right: 480px;
+            bottom:190px 
+        }
+        
+        .home-header {
+            z-index: -1;
+            position: relative;
+            left: 92px;
+            bottom: 9px;
+            height: 10px;
+            opacity: .7;
+         
+        }
+        
+        .home-img {
+            position: relative;
+            width:150%;
+            top:-10px;
+            right: 181px;
+        }
+        
+        
+        .home-btn {
+            position: relative;
+            justify-content: center;
+            left:58px;
+            top:680px;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        
+        .home-btn-shop {
+            position: relative;
+            justify-content: center;
+            right:35px;
+            top:759px;
+            
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        .home-btn-hive {
+            position: relative;
+            top:680px;
+            text-align: center;
+        }
+    
+        .btn-hive {
+            position: relative;
+            right: 10px;
+            
+        }
+        
+        .home-btn-join {
+            position: relative;    
+            top:680px;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+         
+        }
+        
+        .btn-join {
+            position: relative;
+            right: 160px;
+            top:80px
+        }
+    
+    
+        .book-widget {
+            position: relative;
+            top: 125px;
+        }
+        
+        
+        .about-img {
+        position: relative;
+        width: 620px;
+        height: 680px;
+        right:55px;
+        justify-content: center;
+        opacity: .9;
+          
+        }
+        
+        
+        .about-desc {
+        
+            text-align: center;
+            font-size: larger;
+            font-style: bold;
+            font-size: 16px;
+            height: 160px;
+            
+        }
+        
+        .about-words {
+            position: relative;
+            bottom: 655px;
+            width: 70%;
+            height: 540px;
+            left: 95px;
+            background-color: var(--mainWhite);
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+            padding: 10px;
+    
+        }
+        
+        .close-btn {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 159px;
+            bottom: 35px;
+        
+        }
+        
+        .close-btn-2 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 310px;
+            bottom: 215px;
+            
+        }
+        
+        .close-btn-3 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 290px;
+            bottom: 155px;
+        }
+    
+        .close-btn-4 {
+            position: relative;
+            background-color: var(--mainWhite);
+            color:var(--mainOrange);
+            left: 5px;
+            bottom: 1050px;
+        }
+        
+        .insta-btn {
+            position: relative;
+            background-color: var(--mainOrange);
+            color:var(--mainDark);
+            left: 10px;
+            bottom: 2px;
+        }
+        
+        .facebook-btn {
+            position: relative;
+            background-color: var(--mainOrange);
+            color:var(--mainDark);
+            left: 18px;
+            bottom: 2px;
+        }
+        
+        .gallery {
+            position: relative;
+            height: 1124px;
+            overflow: scroll;
+        }
+        
+        .shop {
+            position: relative;
+        }
+        
+    
+        .shop-img {
+            position: relative;
+            width: 800px;
+            height: 680px;
+            left: 85px;
+            justify-content: center;
+            opacity: .9;   
+        }
+        
+        .logos {
+            position: relative;
+            text-align: center;
+            bottom: 0px;
+            padding: 10px;
+            min-height: 13vh;
+        }
+        
+        .logo-header {
+            position: relative;
+            top:403px;
+            left:70px;
+            height:20px;
+            width: 400px;
+        }
+        
+        
+        .products {
+            height: 78vh;
+            position: relative;
+            left: 280px;
+            width: 80%;
+            overflow: scroll;
+            
+           
+        }
+        
+        .product {
+            height: 25vh;
+            position: relative;
+            word-wrap: break-word;
+            bottom: 90px;
+        }
+        
+        .production {
+            position: relative; 
+        }
+        
+        .prod {
+        position: relative;
+        min-height: 10vh;
+        margin: 7px;
+        }
+        
+        .product-img {
+            width: 300px;
+            height: 300px;
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+        }
+        
+        .product-title {
+            position: relative;
+            bottom: 36px;
+            left: 118px
+        }
+        
+        .btn-all {
+            position: absolute;
+            bottom:30px;
+            margin:15px
+        }
+      
+        
+        .vagaro-container {
+            position: relative;
+            height:100px;
+            width: 600px;
+            left:5px;
+            bottom:770px;
+        }
+    
+        .contact-address {
+            position: relative;
+            width: 650px;
+            bottom: 122px;
+            left:4.5px
+            
+        }
+        
+        .contact-info {
+            position: relative;
+            width: 10px;
+            height: 130px;
+            bottom: 30px;
+            font-size: small;
+            
+        }
+        
+    
+        .contact-buzz {
+            position: relative;
+            left: 30px;
+        }
+    
+    
+        .contact-titles {
+            font-size: 14px;
+            position: relative;
+            bottom: 25px;
+            width: 560px;
+            left:23px   
+        }
+        
+        
+        .contact-words {
+            position: relative;
+            bottom: 665px;
+            left: 0px;
+            height: 605px;
+            width: 700px;
+            background-color: var(--mainWhite);
+            border-style: groove;
+            border-color: var(--mainOrange);
+            border-width: 10px;
+           
+        }
+        
+        .contact-form {
+            position: relative;
+            background-color: var(--mainWhite);
+            height: 200px;
+            width:670px;
+            bottom: 90px;
+            right: 60px
+        }
+       
+        .submit-btn {
+            position: relative;
+            right: 1px;
+            bottom: 28px;
+        }
+      
+      
+        .footer-text {
+            font-size: 16px;
+        }
+        
+        .footer-gallery {
+            position: relative;
+            top:150px;
+            font-size: 16px;
+        }
+        
+        .foot-row {
+            position: relative;
+            height: 50px;
+        }
+        
+          
+          .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 300px;
+            width: 300px;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: var(--mainOrange);
+          }
+          
+          .container:hover .overlay {
+            opacity: .9;
+          }
+          
+          .text {
+            color: white;
+            font-size: 14px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
+        
+          .gallery-img {
+          border-style: groove;
+          border-color: var(--mainOrange);
+          border-width: 10px;
+          }
+          
+          .gallery {
+            position: relative;
+            height: 1098px;
+            overflow: scroll;   
+        }
+    }
+    }
+} */
